@@ -29,7 +29,7 @@ class Gem::Commands::DeepFetchCommand < Gem::Command
       options[:force] = value
     end
 
-    # TODO add_platform_option
+    add_platform_option
     # TODO add_prerelease_option
   end
 
